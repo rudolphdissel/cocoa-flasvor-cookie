@@ -1,3 +1,3 @@
 # Cocoa flavor Cookie
 
-Cocoa Cookie is very delicious.
+HTML & CSS are so much fun!
