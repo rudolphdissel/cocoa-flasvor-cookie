@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kakao Talk</title>
+    <title>Settings - Kakao Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -21,39 +21,42 @@
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span>
-          <a href="settings.html"
-            ><i class="fa-sharp fa-solid fa-gear fa-lg"></i></a
-        ></span>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fa-solid fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-3x"></i>
       </div>
     </header>
+
     <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA1MDNfNCAg%2FMDAxNjIwMDE2ODU0MTQ2.Upus4a65wc1JD1D1F7LNnieDt30EJ8KqYrLSUosW_2Yg.PlPVHZRViGXlnKXLdKNWCd93eDw2H7Qh3UWrY1yJJq4g.PNG.xavisnet%2F%25C4%25AB%25C4%25AB%25BF%25C0%25C5%25E51.png&type=a340"
-              class="user-component__avatar user-component__avatar"
-            />
-            <div class="user-component_text">
-              <h4 class="user-component__title">KakaoTalk</h4>
-              <h6 class="user-component__subtitle">
-                Please check My Kakao Account info
-              </h6>
-            </div>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <i class="fa-solid fa-bullhorn"></i>
+            <span>Notices</span>
           </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:32</span>
-            <div class="badge">1</div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <i class="fa-solid fa-flask"></i>
+            <span>KaKao Lab</span>
           </div>
-        </div>
-      </a>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <i class="fa-solid fa-circle-info"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting__column">Latest Version</div>
+        </li>
+      </ul>
     </main>
 
     <nav class="nav">
@@ -66,7 +69,7 @@
         <li class="nav_btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="fa-solid fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav_btn">

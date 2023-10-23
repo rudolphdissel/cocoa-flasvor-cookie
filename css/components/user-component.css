@@ -46,3 +46,6 @@
   margin-bottom: 10px;
   display: block;
 }
+.user-component__subtitle--more i {
+  margin-left: 5px;
+}
